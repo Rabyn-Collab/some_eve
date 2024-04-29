@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20+Charted&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 15px 30px;
+  /* font-family: "Jersey 20 Charted",  sans-serif; */
+}
+
+img {
+  width: 100%;
+}
+
+.logo img {
+  width: 115px;
+  padding-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding-right: 10px;
+}
+
+a:hover {
+  text-decoration: underline solid black;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.other-nav i {
+  padding-left: 10px;
+}
+
+
+.dis-section {
+  height: 400px;
+  width: 100%;
+  background-image: url('/assets/img/showcase.jpg');
+
+  background-size: cover;
+  background-position: center;
+  /* background-color: rgb(223, 206, 206);
+  background-blend-mode: overlay; */
+  margin: 17px 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 35px;
+}
+
+.dis-info {
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.c-button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+
+.latest-prods {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.prod img {
+  margin-bottom: 10px;
+}
+
+.prod p {
+  margin: 15px 0;
+}
+
+.prod button {
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #0067B8;
+  font-weight: 700;
+}
+
+
+.xbox {
+  height: 350px;
+  width: 100%;
+  background-image: url('/assets/img/xbox.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 40px 0 17px 0;
+}
+
+.xbox-info {
+  padding: 79px 0 0 30px;
+  width: 45%;
+}
+
+.xbox h2 {
+  margin-bottom: 10px;
+
+}
+
+.section {
+  height: 350px;
+  width: 100%;
+  background-image: url('/assets/img/carbon.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 17px 0;
+  color: white;
+}
+
+.sec-button {
+  background-color: white;
+  color: black;
+
+}
+
+@media (max-width: 400px) {
+  .section p {
+    visibility: hidden;
+  }
+}
