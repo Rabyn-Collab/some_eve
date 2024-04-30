@@ -137,11 +137,36 @@ a:hover {
 .sec-button {
   background-color: white;
   color: black;
+}
+
+
+
+
+
+@media (max-width: 540px) {
+
+
+  .xbox-info {
+    padding: 25px 0 0 30px;
+  }
+
 
 }
 
-@media (max-width: 400px) {
-  .section p {
-    visibility: hidden;
+
+@media (max-width: 430px) {
+
+
+  .xbox-info {
+    padding: 50px 0 0 30px;
+    width: 100%;
   }
+
+  .xbox-info p {
+
+    /* display: none; */
+
+  }
+
+
 }
